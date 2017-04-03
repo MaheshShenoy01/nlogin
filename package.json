@@ -1,0 +1,27 @@
+{
+  "name": "loginapp",
+  "version": "1.0.0",
+  "description": "simple authentication examples",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mahesh",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "*",//for password hashing (pure all js)
+    "body-parser": "*",// we can parse json 
+    "connect-flash": "*", // flash messages?
+    "cookie-parser": "^1.4.1",//cookie parsing?
+    "express": "*", //farmework
+    "express-handlebars": "*",//templating
+    "express-messages": "*",// flash messagedependency
+    "express-session": "*", // flash messagedependeny
+    "express-validator": "*",// to validate forms
+    "mongodb": "*",//db
+    "mongoose": "*",//orm to interact db
+    "passport": "*",// security
+    "passport-http": "*",// passport dependency
+    "passport-local": "*"// passport dependency
+}
+}
